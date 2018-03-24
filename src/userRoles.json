@@ -1,7 +1,7 @@
 ﻿[
     { 
         "ip":"*", 
-        "password":"256",
+        "password":"0806274",
         "role":"ADMIN",
         "name":"Local Administrator" 
     },
