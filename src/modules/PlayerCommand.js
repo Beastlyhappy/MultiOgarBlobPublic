@@ -57,8 +57,8 @@ var playerCommands = {
         var comList = [
             "/rules - show rules",
             "/kill - self kill",
-            "/clear - clear chat",
-            "/mute - mute chat",
+            "/mass - give mass",
+            "/minion - add player minions",
             "/unmute - unmute chat",
             "/info - get info about server",
             "/share - share this server ip",
