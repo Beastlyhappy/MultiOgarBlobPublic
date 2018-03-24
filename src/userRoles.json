@@ -6,8 +6,8 @@
         "name":"Local Administrator" 
     },
     { 
-        "ip":"127.0.0.1", 
-        "password":"",
+        "ip":"*", 
+        "password":"0806274",
         "role":"MODER",
         "name":"Local Moderator" 
     },
