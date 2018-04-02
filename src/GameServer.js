@@ -72,7 +72,7 @@ function GameServer() {
         serverMinionInterval: 1000, // minion detection interval [milliseconds]
         serverPort: 1111,           // Server port
         serverBind: '0.0.0.0',      // Network interface binding
-        serverTracker: 0,           // Set to 1 if you want to show your server on the tracker http://ogar.mivabe.nl/master
+        serverTracker: 1,           // Set to 1 if you want to show your server on the tracker http://ogar.mivabe.nl/master
         serverGamemode: 0,          // Gamemode, 0 = FFA, 1 = Teams
         serverBots: 0,              // Number of player bots to spawn
         serverViewBaseX: 1920,      // Base client screen resolution. Used to calculate view area. Warning: high values may cause lag
@@ -87,8 +87,8 @@ function GameServer() {
         serverChatAscii: 1,         // Set to 1 to disable non-ANSI letters in the chat (english only mode)
         separateChatForTeams: 1,    // Set to 1 to separate chat for game modes with teams like 'Teams'
         
-        serverName: 'MultiOgarBlob', // Server name
-        serverWelcome1: 'Welcome to Blob!\nType /help too see commands!',// First server welcome message
+        serverName: 'Happys server', // Server name
+        serverWelcome1: 'Welcome to happys server ENJOY!\nType /help too see commands!',// First server welcome message
         serverWelcome2: '',         // Second server welcome message (for info, etc)
         
         borderWidth: 14142,         // Map border size (Vanilla value: 14142)
@@ -116,8 +116,8 @@ function GameServer() {
         playerMinSize: 32,          // Minimym size of the player cell (mass = 32*32/100 = 10.24)
         playerMaxSize: 1500,        // Maximum size of the player cell (mass = 1500*1500/100 = 22500)
         playerMinSplitSize: 60,     // Minimum player cell size allowed to split (mass = 60*60/100 = 36) 
-        playerStartSize: 64,        // Start size of the player cell (mass = 64*64/100 = 41)
-        playerMaxCells: 16,         // Max cells the player is allowed to have
+        playerStartSize: 750,        // Start size of the player cell (mass = 64*64/100 = 41)
+        playerMaxCells: 64,         // Max cells the player is allowed to have
         playerSpeed: 1.3,             // Player speed multiplier
         playerDecayRate: .002,      // Amount of player cell size lost per second
         playerRecombineTime: 30,    // Base time in seconds before a cell is allowed to recombine
